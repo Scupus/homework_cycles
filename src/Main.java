@@ -33,11 +33,26 @@ public class Main {
             System.out.println("Месяц " + i + "," + " сумма накоплений = " + total2);
         }
         System.out.println("_____________________________________________________________________________");
-
-
-
-
-
+        int total3 = 0;
+        int y = 0;
+        while (total3 < 2459000) {
+            total3 = total3 + 15000;
+            y = y + 1;
+        }
+        System.out.println("Месяц " + y + ", сумма накоплений = " + total3);
+        System.out.println("_____________________________________________________________________________");
+        int q = 0;
+        int w = 11;
+        while (q < 10) {
+            q = q + 1;
+            System.out.print(q + " ");
+        }
+        System.out.println();
+        for ( ;w > 0; ) {
+            w = w - 1;
+            System.out.print(w + " ");
+        }
+        System.out.println("_____________________________________________________________________________");
 
 
 
