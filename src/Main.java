@@ -20,7 +20,7 @@ public class Main {
         System.out.println("_____________________________________________________________________________");
         int salary = 29000;
         int total =0;
-        for (int i = 0; i < 13; i++) {
+        for (int i = 1; i < 13; i++) {
             total = total + salary;
             System.out.println("Сумма накоплений = " + total);
         }
@@ -48,11 +48,42 @@ public class Main {
             System.out.print(q + " ");
         }
         System.out.println();
-        for ( ;w > 0; ) {
+        for ( ;w > 1; ) {
             w = w - 1;
             System.out.print(w + " ");
+                            }
+        System.out.println();
+        System.out.println("_____________________________________________________________________________");
+        int population = 12_000_000;
+        int yerPopulationIncrease = 12000 * (17 - 8);
+        int j = 0;
+        for ( ; j <10; j++) {
+            population = population + yerPopulationIncrease;
+            System.out.println("Год " + j + ", население страны = " + population);
+        }
+        System.out.println("Ежегодная прибавка населения " + yerPopulationIncrease);
+        System.out.println("Год " + j + " население = " + population);
+        System.out.println("_____________________________________________________________________________");
+        int totalDeposit = 15000;
+        for (int i = 1;totalDeposit < 12_000_000;i++) {
+            totalDeposit = (int) (totalDeposit * 1.07);
+            System.out.println("Месяц " + i + " сумма на счете = " + totalDeposit);
         }
         System.out.println("_____________________________________________________________________________");
+        int totalDeposit2 = 15000;
+        for (int i = 1;totalDeposit2 < 12_000_000;i++) {
+            totalDeposit2 = (int) (totalDeposit2 * 1.07);
+            if (i % 6 == 0) {
+                System.out.println("Месяц " + i + " сумма на счете = " + totalDeposit2);
+            }}
+        System.out.println("_____________________________________________________________________________");
+
+        for (int i=1; i < 73; i++ ) {
+            totalDeposit2 = (int) (totalDeposit2 * 1.07);
+            if (i % 6 == 0) {
+                System.out.println("Месяц " + i + " сумма на счете = " + totalDeposit2);
+            }}
+
 
 
 

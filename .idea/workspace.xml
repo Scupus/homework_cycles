@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7fed35ea-bbf8-43d2-be9c-771909fe4f5c" name="Changes" comment="начали">
+    <list default="true" id="7fed35ea-bbf8-43d2-be9c-771909fe4f5c" name="Changes" comment="2 часть">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
@@ -40,7 +40,7 @@
       <workItem from="1669102420657" duration="2554000" />
       <workItem from="1669512659863" duration="123000" />
       <workItem from="1669512838132" duration="279000" />
-      <workItem from="1669517210109" duration="3520000" />
+      <workItem from="1669517210109" duration="9171000" />
     </task>
     <task id="LOCAL-00001" summary="начали">
       <created>1669102499496</created>
@@ -63,7 +63,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669104978893</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="2 часть">
+      <created>1669520800202</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1669520800202</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -82,6 +89,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="начали" />
-    <option name="LAST_COMMIT_MESSAGE" value="начали" />
+    <MESSAGE value="2 часть" />
+    <option name="LAST_COMMIT_MESSAGE" value="2 часть" />
   </component>
 </project>
