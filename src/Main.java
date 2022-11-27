@@ -83,7 +83,24 @@ public class Main {
             if (i % 6 == 0) {
                 System.out.println("Месяц " + i + " сумма на счете = " + totalDeposit2);
             }}
-
+        System.out.println("_____________________________________________________________________________");
+        int firstFriday = 3;
+        for (int i = firstFriday;i < 32;i+=7) {
+            System.out.println("Сегодня пятница, " + i + " число. Необходимо подготовить отчет.");
+        }
+        System.out.println("_____________________________________________________________________________");
+        int year = 0;
+        for ( ;year < 2122; year+=79) {
+          if (year >=1822) {
+              System.out.println(year);
+          }
+        }
+        System.out.println("_____________________________________________________________________________");
+        int total4 = 0;
+        for (int i=1; i<11; i++) {
+        total4 = 2 * i;
+            System.out.println("2*" + i + " = " + total4);
+        }
 
 
 
